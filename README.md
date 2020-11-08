@@ -5,6 +5,6 @@
 使用方法：
 查阅master分支：
 具体使用方法：
-安装node.js和vue-cli
-npm -init
-npm run serv
+- 安装node.js和vue-cli
+- npm -init
+- npm run serv
