@@ -7,3 +7,6 @@
 - 负责部分：前端
 - 项目部署地址：http://106.14.209.11/#/  戳这里可以快速体验。
 - 作业要求： https://edu.cnblogs.com/campus/fzu/SE2020/homework/11480
+
+## 本次作业的艰难历程
+由多个同学疯狂编程，具体commit记录可参见main分支。
