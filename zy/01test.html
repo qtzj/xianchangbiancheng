@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>网上电子投票系统</title>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<script language="javascript" src="jsFunction.js">
+</script>
+</head>
+<body>
+	<div id="head">
+    	<div id="head_main">
+        	<div id="head_main_center">
+        		<div id="head_main_logo">网上电子投票系统</div>
+                <div id="head_main_account">
+                    <a href="javascript:void(0);" onclick="showDiv('register', 'landing');">登录</a> | 
+                    <a href="javascript:void(0);" οnclick="showDiv('landing', 'register');">注册</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="main">
+    <!--登录与注册-->
+    	<div id="landing" style="display:none;">
+        	<div class="inside">
+            	<br/>
+            	<center>欢迎登录网上电子投票系统</center>
+                <form action="" method="get">
+                <table>
+                	<tr><td>用户名：</td><td><input type="text" name="username"/></td></tr>
+                    <tr><td>密 码:</td><td><input type="password" name="password"/></td></tr>
+                    <tr><td></td><td><input type="button" value="登录"/>
+                     <input type="reset"/>
+                     <button value="取消" onclick="exitDiv('landing')"></button> </td></tr>
+                </table>
+                </form>
+            </div>
+        </div>
+        <div id="register" style="display:none;">
+        	<div class="inside">
+            	<br/>
+            	<center>欢迎注册网上电子投票系统</center>
+                <form action="" method="get">
+                <table>
+                	<tr><td>用户名：</td><td><input type="text" name="username"/></td></tr>
+                    <tr><td>密 码:</td><td><input type="password" name="password"/></td></tr>
+                    <tr><td>再次输入密码:</td><td><input type="password" name="password2"/></td></tr>
+                    <tr><td></td><td><input type="button" value="注册"/>
+                      <input type="reset"/>
+                      <input type="button" value="取消" οnclick="exitDiv('register')"></td></tr>
+                </table>
+                </form>
+            </div>
+        </div>
+        <!--登录与注册(结束)-->
+    	<div id="main_menu">
+        	<!--菜单-->
+            <!--一个菜单单元-->
+        	<div id="main_menu_top"></div>
+            <div class="main_menu_item">
+            	<a href="#">
+            		进行中的投票
+                </a>
+            </div>
+            <!--一个菜单单元结束-->
+            <div class="main_menu_space"></div>
+            <div class="main_menu_item">
+            	<a href="#">
+            		我提出的投票
+                </a>
+            </div>
+            <div class="main_menu_space"></div>
+            <div class="main_menu_item">
+            	<a href="#">
+            		发布我的投票
+                </a>
+            </div>
+            <!--菜单结束-->
+            <div id="main_menu_bottom"></div>
+        </div>
+        
+    	<div id="main_contend">
+        	<div id="contend_top">
+            	<div id="contend_title">|进行中的投票</div>
+            </div>
+        <!--主体内容-->
+        	<!--一个选项单元-->
+           	<div class="contend_item">
+            	<table>
+                	<tr><td class="contend_item_name"> <a href="#">这是题目这是一个标准的投票题目</a></td><td>发 布 者：admin<br/>发布日期：2016-1-7</td></tr>
+                    <tr><td colspan="2">  这里的内容是该投票的题目介绍，介绍的内容是该投票的发布者提出的，他想怎么写就怎么写。这里的内容是该投票的题目介绍，介绍的内容是该投票的发布者提出的，他想怎么写就怎么写这里的内容是该投票的题目介绍……</td></tr>
+                </table>
+            </div>
+         	<!--一个选项单元结束-->
+            <div class="contend_item">
+            	<table>
+                	<tr><td class="contend_item_name"> <a href="#">这是题目这是一个标准的投票题目</a></td><td>发 布 者：admin<br/>发布日期：2016-1-7</td></tr>
+                    <tr><td colspan="2">  这里的内容是该投票的题目介绍，介绍的内容是该投票的发布者提出的，他想怎么写就怎么写。这里的内容是该投票的题目介绍，介绍的内容是该投票的发布者提出的，他想怎么写就怎么写……</td></tr>
+                </table>
+            </div>
+		<!--主体内容结束-->
+            <div id="bottom"></div>
+        </div>
+        
+    </div>
+</body>
+</html>
